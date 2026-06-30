@@ -23,6 +23,9 @@ function QuantityPicker(){
             <button className="btn-minus" onClick={handleDecrease}>-</button>
             <label className="label-qty">{quantity}</label>
             <button className="btn-plus" onClick={handleIncrease} >+</button>
+            <button class="dummy-cart-btn">
+                <span class="btn-icon">🛒</span> Add to Cart
+            </button>
         </div>
     );
 }

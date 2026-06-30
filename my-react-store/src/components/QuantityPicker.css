@@ -26,13 +26,17 @@
 	border: none;
 	background: linear-gradient(180deg,#f6f8fb,#eef3fb);
 	color: #1f2937;
-	width: 34px;
+	min-width: 34px;
 	height: 34px;
+	padding: 0 8px;
 	border-radius: 6px;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 18px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1;
+	white-space: nowrap;
 	cursor: pointer;
 	transition: all .12s ease;
 	box-shadow: 0 1px 2px rgba(16,24,40,0.04) inset;
@@ -62,8 +66,36 @@
 }
 
 /* responsive small size */
-@media (max-width:420px){
-	.quantity-picker{gap:6px;padding:4px;border-radius:6px}
-	.quantity-picker button{width:30px;height:30px;font-size:16px;border-radius:5px}
-	.quantity-picker .label-qty{min-width:30px;padding:2px 4px}
+@media (max-width:480px){
+	.quantity-picker{
+		width:100%;
+		gap:8px;
+		padding:8px;
+		border-radius:10px;
+		flex-wrap:wrap;
+		justify-content:space-between;
+	}
+	.quantity-picker button{
+		min-width:44px;
+		height:44px;
+		font-size:18px;
+		border-radius:8px;
+	}
+	.quantity-picker .label-qty{
+		flex:1 1 48px;
+		min-width:40px;
+		text-align:center;
+		padding:6px 8px;
+	}
+	.quantity-picker .add-to-cart,
+	.dummy-cart-btn{
+		width:100%;
+		min-width:auto;
+		padding:8px 10px;
+		font-size:13px;
+		line-height:1.3;
+		white-space:normal;
+		border-radius:8px;
+		flex-shrink: 0;
+	}
 }
