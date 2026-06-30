@@ -6,6 +6,7 @@ function Product(props){
         <div className="product">
             <img src = {"/images/"+ props.data.image} alt="product"></img>
             <h5>{props.data.title}</h5>
+            <p>{props.data.desc}</p>
             <div className="prices">
                 <label>{props.data.price}</label>
                 
