@@ -1,23 +1,28 @@
 /* Navbar styling */
 
 h1 {
-  margin: 0;
-  padding: 1rem 1.5rem;
-  width: 100%;
-  background: linear-gradient(90deg, #1c3d72, #2563eb);
-  color: #ffffff;
-  font-size: 1.6rem;
+  margin: 0 auto;
+  padding: 1.2rem 1.75rem;
+  max-width: 1200px;
+  width: calc(100% - 2rem);
+  background: linear-gradient(135deg, #3f6212, #6a8f2e);
+  color: #f8fafc;
+  font-size: clamp(1.6rem, 2vw, 2.2rem);
   font-weight: 700;
   text-align: center;
-  letter-spacing: 0.04em;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
-  border-radius: 0 0 18px 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.16);
+  border-radius: 0 0 22px 22px;
   position: sticky;
   top: 0;
   z-index: 10;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Georgia', 'Cambria', serif;
+  transition: background 0.25s ease, transform 0.2s ease;
 }
 
 h1:hover {
-  background: linear-gradient(90deg, #2563eb, #1c3d72);
+  background: linear-gradient(135deg, #5a7d17, #8bbf32);
+  transform: translateY(-1px);
 }

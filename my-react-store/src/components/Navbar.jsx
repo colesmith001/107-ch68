@@ -2,7 +2,7 @@ import "./Navbar.css"
 
 function Navbar(){
     return(
-        <h1>Welcome to my online Store</h1>
+        <h1>Coles super Farm store</h1>
     );
 }
 
