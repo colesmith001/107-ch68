@@ -1,13 +1,14 @@
 import "./Product.css";
 import QuantityPicker from "./QuantityPicker";
 
-function Product(){
+function Product(props){
     return(
         <div className="product">
-            <img src="https://picsum.photos/200/300" alt="product"></img>
-            <h5>Title</h5>
+            <img src = {"/images/"+ props.data.image} alt="product"></img>
+            <h5>{props.data.title}</h5>
             <div className="prices">
-                <label>Price</label>
+                <label>{props.data.price}</label>
+                
                 <label>Total</label>
             </div>
             <QuantityPicker></QuantityPicker>
