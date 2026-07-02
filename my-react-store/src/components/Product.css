@@ -58,14 +58,7 @@ body {
 
 .product-card p {
     color: #5e5539;
-    line-height: 1.8;
-    font-size: 1.05rem;
-    letter-spacing: 0.01em;
-    background: rgba(247, 242, 229, 0.85);
-    padding: 1rem 1.25rem;
-    border-radius: 18px;
-    border: 1px solid rgba(94, 85, 57, 0.14);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    line-height: 1.7;
 }
 
 img {
@@ -151,3 +144,15 @@ button:focus {
     }
 }
 
+.total{
+    font-weight: 700;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(86, 68, 45, 0.12);
+    overflow: hidden;
+    width: 100%;
+    max-width: 350px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}

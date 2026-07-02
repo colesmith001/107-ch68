@@ -1,28 +1,53 @@
 const catalog = [
     {
-        "title":"Orange",
+        "title":"Oranges",
         "desc": "These oranges are transported from our local farms in fresno the freshest you will find in California",
         "category": "fruit",
-        "price": "3.50 $ a /lb",
+        "price": 3.50,
         "image":"orange.png",
         "_id":"1"
+    },
+    {
+        "title":"Grapes",
+        "desc": "These grapes are transported from our local farms in fresno the freshest you will find in California",
+        "category": "fruit",
+        "price": 3.50,
+        "image":"grapes.png",
+        "_id":"4"
     },
     {
         "title":"Chocolate",
         "desc": "This is Local peruvian choclate made to reduce heart rate and heart disease risk",
         "category": "grocery",
-        "price": "3.50 $ a /lb",
+        "price": 3.50,
         "image": "chocolatte.png",
         "_id":"2"
+    },
+    {
+        "title":"Milk",
+        "desc": "This is Local milk made to reduce heart rate and heart disease risk",
+        "category": "grocery",
+        "price": 3.50, 
+        "image": "milk.png",
+        "_id":"5"
     },
     {
         "title":"The Farmers Hoodie",
         "desc": "This hoodie is made from 100% silk imported straight from Italy",
         "category": "merch",
-        "price": "85.00 $",
+        "price": 85.00,
         "image":"hoodie.png",
         "_id":"3"
     },
+    {
+        "title":"The Farmers T-Shirt",
+        "desc": "This t-shirt's are made from 100% cotton",
+        "category": "merch",
+        "price": 85.00,
+        "image":"tshirt.png",
+        "_id":"6"
+    },
+   
 ];
 
 class DataService{
