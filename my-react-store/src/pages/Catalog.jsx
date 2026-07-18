@@ -19,7 +19,7 @@ function Catalog(){
     );
     
     function loadCatalog(){
-    let categoriesFilter = ["fruit","grocery","merch"];
+    let categoriesFilter = ["Fruit","Grocery","Merch"];
     setCategories(categoriesFilter); 
 }
 

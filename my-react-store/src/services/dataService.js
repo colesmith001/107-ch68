@@ -2,7 +2,7 @@ const catalog = [
     {
         "title":"Oranges",
         "desc": "These oranges are transported from our local farms in fresno the freshest you will find in California",
-        "category": "fruit",
+        "category": "Fruit",
         "price": 3.50,
         "image":"orange.png",
         "_id":"1"
@@ -10,7 +10,7 @@ const catalog = [
     {
         "title":"Grapes",
         "desc": "These grapes are transported from our local farms in fresno the freshest you will find in California",
-        "category": "fruit",
+        "category": "Fruit",
         "price": 3.50,
         "image":"grapes.png",
         "_id":"4"
@@ -18,7 +18,7 @@ const catalog = [
     {
         "title":"Chocolate",
         "desc": "This is Local peruvian choclate made to reduce heart rate and heart disease risk",
-        "category": "grocery",
+        "category": "Grocery",
         "price": 3.50,
         "image": "chocolatte.png",
         "_id":"2"
@@ -26,7 +26,7 @@ const catalog = [
     {
         "title":"Milk",
         "desc": "This is Local milk made to reduce heart rate and heart disease risk",
-        "category": "grocery",
+        "category": "Grocery",
         "price": 3.50, 
         "image": "milk.png",
         "_id":"5"
@@ -34,7 +34,7 @@ const catalog = [
     {
         "title":"The Farmers Hoodie",
         "desc": "This hoodie is made from 100% silk imported straight from Italy",
-        "category": "merch",
+        "category": "Merch",
         "price": 85.00,
         "image":"hoodie.png",
         "_id":"3"
@@ -42,7 +42,7 @@ const catalog = [
     {
         "title":"The Farmers T-Shirt",
         "desc": "This t-shirt's are made from 100% cotton",
-        "category": "merch",
+        "category": "Merch",
         "price": 85.00,
         "image":"tshirt.png",
         "_id":"6"
