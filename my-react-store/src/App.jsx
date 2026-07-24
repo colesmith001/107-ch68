@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from "react-router";
 // alphebetical order for components
 import About from "./pages/about";
 import Admin from "./pages/Admin"
+import Cart from "./pages/cart"
 import Catalog from './pages/Catalog';
 import Contact from "./pages/contact";
 import Home from "./pages/Home";
@@ -26,6 +27,7 @@ function App() {
         <Route path = "/contact" element = {<Contact/>}/>
         <Route path = "/catalog"  element = {<Catalog/>}/>
         <Route path = "/admin"  element = {<Admin/>}/>
+        <Route path = "/cart"  element = {<Cart/>}/>
         <Route path = "*" element = {<h1>404 Not Found</h1>} />
       </Routes>
 

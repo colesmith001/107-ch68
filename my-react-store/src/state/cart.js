@@ -12,6 +12,12 @@ const useStore = create((set) => ({
     clearCart: () =>
         set(() => ({
             cart: []    
+        })),
+
+    addProductToCart: (product) =>
+        set((state)=>({
+            cart: [...state.cart, product]
+
         }))
 
 }))
